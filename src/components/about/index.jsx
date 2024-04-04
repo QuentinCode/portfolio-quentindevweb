@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const AboutDetails = () => {
   return (
-    <section className="py-20 w-full">
+    <section className="max-xs:py-0 Spy-20 w-full">
       <div className="grid grid-cols-12 gap-4 xs:gap-6  md:gap-8 w-full">
         <ItemLayout
           className={
@@ -14,7 +14,7 @@ const AboutDetails = () => {
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
             Architecte de l&apos;enchantement
           </h2>
-          <p className="font-light  text-xs sm:text-sm md:text-base   ">
+          <p className="font-light  max-xs:text-lg xs:text-lg text-xs sm:text-lg md:text-base   ">
           Mon parcours dans le développement web est alimenté par un ensemble d&apos;outils et de langages mystiques. JavaScript étant au cœur de mes enchantements. Je manie des frameworks tels que React.js et Next.js avec avec précision, en créant des portails (sites web) qui relient les royaumes (utilisateurs) à travers l&apos;univers numérique. Les arts anciens de la Jamstack me permettent de créer des expériences rapides, sécurisées et dynamiques, tandis que mes compétences en design garantissent que chaque création est non seulement fonctionnelle, mais aussi visuellement captivante. Rejoignez-moi pour continuer à explorer de nouveaux technologies pour façonner l&apos;avenir du web.
           </p>
         </ItemLayout>

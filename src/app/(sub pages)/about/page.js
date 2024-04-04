@@ -31,7 +31,7 @@ export default function Home() {
 
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
-          <h1 className="font-bold  text-5xl xs:text-6xl sm:text-7x1 lg:text-8xl text-accent">
+          <h1 className="font-bold max-xs:text-[2.5rem] text-5xl xs:text-6xl sm:text-7x1 lg:text-8xl text-accent">
             Quentindevweb
           </h1>
           <p className="font-light text-foreground text-lg">
