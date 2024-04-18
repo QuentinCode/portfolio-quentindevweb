@@ -2,8 +2,12 @@ import React from "react";
 import ItemLayout from "./ItemLayout";
 import Link from "next/link";
 
+
 const AboutDetails = () => {
+
+
   return (
+
     <section className="max-xs:py-0 Spy-20 w-full">
       <div className="grid grid-cols-12 gap-4 xs:gap-6  md:gap-8 w-full">
         <ItemLayout

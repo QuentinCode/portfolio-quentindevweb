@@ -3,7 +3,13 @@ import bg from "../../../../public/background/about-background.png";
 import RenderModel from "@/components/RenderModel";
 // import HatModel from "@/components/models/HatModel";
 import AboutDetails from "@/components/about";
+import Form from "@/components/Form";
+import Formpermonth from "@/components/Formpermonth";
+
+
 import dynamic from "next/dynamic";
+
+
 const HatModel = dynamic(() => import("@/components/models/HatModel"), {
   ssr: false,
 });
@@ -13,6 +19,7 @@ export const metadata = {
 };
 
 export default function Home() {
+  
   return (
     <>
       <Image
@@ -41,6 +48,14 @@ export default function Home() {
       </div>
 
       <AboutDetails />
+      <Form />
+      <Formpermonth />
+      
+          <p className="mt-8 font-light text-foreground ">
+            *Ce calculateur de tarif donne un aperçu du montant pour chaque projet cependant chaque projet à ses spécificités et je vous recommande donc de prendre rendez-vous pour avoir plus de détails sur le prix que peut coûter votre propre projet !
+          </p>
+        
+ 
     </>
   );
 }
